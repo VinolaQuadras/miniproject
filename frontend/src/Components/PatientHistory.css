@@ -1,0 +1,57 @@
+/* ... Previous CSS Code ... */
+
+/* Patient History Styles */
+h2 {
+    color: #2c3e50;
+  }
+  
+  .list-group {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-group-item {
+    border: 1px solid #ecf0f1;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #ecf0f1;
+  }
+  
+  .list-group-item:nth-child(even) {
+    background-color: #c0dcee; /* Even blocks have the same color */
+    color: rgb(15, 14, 14);
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  /* File Button Styles */
+  .btn-primary {
+    background-color: #08293d;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* ... Remaining CSS Code ... */
+  
+  
+  
+  
+  /* Container Styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  
+  strong {
+    font-weight: bold;
+  }
+  
+ 
+  

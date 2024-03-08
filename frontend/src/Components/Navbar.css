@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Pushes content to the corners */
+    align-items: center; /* Vertically centers the content */
+    background-color: #a292f3;
+    color: #1d2038;
+    padding: 10px;
+  }
+  
+  
+  
+  .navbar-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  
+  .navbar-right {
+    margin-right: 10px;
+  }

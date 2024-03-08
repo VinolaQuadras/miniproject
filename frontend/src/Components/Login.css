@@ -1,0 +1,84 @@
+
+  
+  body, html {
+    height: 100%;
+  }
+  label {
+    color: #0d27eb; /* You can adjust the color code as per your preference */
+    font-weight: bold;
+  }
+  h2{
+    font-style: italic;
+    color:#1d2038;
+    font-weight: bold;
+  }
+
+  
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a292f3;
+  }
+  
+  
+  .login-form-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start; /* Align the login form to the left */
+    align-items: center;
+  }
+  
+  
+  
+  .login-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 14px;
+    border: 4px solid #3344c4; /* Add thicker border with blue color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+   
+  }
+  
+  /* ... (rest of your existing CSS) ... */
+  
+  
+
+  
+  .form-group {
+    margin-bottom: 20px; /* Adjusted margin for more spacing between form groups */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px; /* Adjusted margin for more spacing between labels */
+  }
+  
+  input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none; /* Remove default border */
+  border-radius: 0; /* Remove default border-radius */
+  border-bottom: 2px solid #3344c4; /* Add bottom border */
+  margin-bottom: 20px; /* Adjust margin to create space between input fields */
+}
+
+  
+  button {
+    padding: 12px 24px; /* Adjusted padding for the button */
+    font-size: 16px; /* Adjusted font size for the button */
+    background-color: #3344c4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #15283d;
+  }
